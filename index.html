@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>a/A Building HTML Forms</title>
+</head>
+<body>
+    <form action="post">
+        <fieldset>
+            <legend>Add user</legend>
+
+            <input type="text" id="firstName" name="user">
+            <label for="firstName">First Name</label>
+
+            <br>
+
+            <input type="text" id="lastName" name="user">
+            <label for="lasttName">Last Name</label>
+
+            <br>
+
+            <input type="email" id="email" name="user">
+            <label for="email">Email Address</label>
+
+            <br>
+
+            <label for="status">Status</label>
+            <br>
+            <select name="status" id="userSelect">
+                <option value="">--Please Choose an Option--</option>
+                <option value="student">Student</option>
+                <option value="instructor">Instructor</option>
+                <option value="guest">Guest</option>
+            </select>
+
+            <p>Choose your favorite programming language</p>
+            <input type="radio" id="html" name="language" value="html">
+            <label for="html">HTML</label>
+            <br>
+            <input type="radio" id="css" name="language" value="css">
+            <label for="css">CSS</label>
+            <br>
+            <input type="radio" id="javascript" name="language" value="javascript">
+            <label for="javascript">JavaScript</label>
+
+            <br>
+
+            <label for="comments">Comments</label>
+            <br>
+            <textarea name="comments" id="comments" cols="30" rows="10">Comments</textarea>
+            <br>
+
+            <label for="date">Current Date:</label>
+            <input type="date" id="date" name="currentDate">
+
+            <br>
+
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Sign up for newsletter</label>
+            <br>
+            <input type="checkbox" id="terms" name="terms">
+            <label for="terms">Agree to Terms and Conditions</label>
+
+            <br>
+
+            <input type="submit">
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
